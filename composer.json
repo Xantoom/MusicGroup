@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/musicgroup",
+  "description": "Répertoire Musical",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Xantoom",
+      "email": "xantoom@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+        "Core\\": "Core/",
+        "App\\": "App/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}
